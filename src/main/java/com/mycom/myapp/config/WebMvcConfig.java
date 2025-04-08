@@ -22,7 +22,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
 						"/index.html",
 						"favicon.ico",
 						"/assets/**",
-						"/pages/login", // page 요청
+							"/pages/login", // page 요청
 						"/pages/register",  // page 요청
 						"/auth/**",     // 로그인 데이터 ajax 요청
 						"/users/**"		// 회원가입 ajax 요청
